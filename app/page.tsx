@@ -4,9 +4,9 @@ import { listVerticals } from "@/lib/verticals";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Kiwuuu — WhatsApp flows, done for you in 24h",
+  title: "Kiwuuu — 22 AI agents on your WhatsApp. Live in 24h.",
   description:
-    "Pick your industry. We design your WhatsApp business flow. Live in 24 hours.",
+    "Pick your industry. Your WhatsApp answers, books, and follows up — in your voice. From €49/mo.",
 };
 
 export default function Home() {
@@ -22,11 +22,14 @@ export default function Home() {
       </header>
       <main className="px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-5xl text-center">
+          <p className="mb-6 inline-block rounded-full border border-[var(--line)] bg-[var(--surface)] px-4 py-1.5 text-xs font-medium uppercase tracking-[0.14em] text-[var(--muted)]">
+            22 AI agents · one WhatsApp number · live in 24h
+          </p>
           <h1 className="text-balance text-4xl font-bold tracking-tight text-[var(--ink)] sm:text-6xl">
             What&rsquo;s your business?
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-[var(--muted)] sm:text-xl">
-            Pick your industry. Founder-built WhatsApp flow. Live in 24 hours.
+            Pick your industry. We wire your WhatsApp to answer, book and follow up — in your voice. From €49/mo, no setup fee.
           </p>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {verticals.map((v) => (
